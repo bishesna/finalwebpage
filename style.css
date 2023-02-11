@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
+ }
+.infocontainer{
+    display: flex;
+
+}
+
+.bar{
+    display:flex;
+    position: sticky;
+    top:0;
+    position: sticky;
+    
+    
+}
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.logo img{
+  height:50% ;
+  width :33% ;
+  border:2px solid white;
+  border-radius:49%;
+}
+.nav-list{
+
+    width:60%;
+    background-color: #210d07;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.nav-list li{
+    list-style: none;
+padding:26px 30px
+}
+.nav-list li a{
+text-decoration: none;
+color:aliceblue;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:grey;
+
+
+    }
+.rightnav{
+    padding:19px 30px;
+    width:40%; 
+    text-align: right;
+  background-color:  #210d07; 
+}
+.rightnav button{
+    text-align: right;
+      margin-right: 14%;
+      border:2px solid white;
+      background:none ;
+      color: aliceblue;
+      padding:8px 20px;
+      border-radius: 8px;
+      
+}
+.burger{
+    
+    position:absolute;
+    right:5%;
+    top:15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+.devimg{
+
+    align-items: right;
+     
+}
+.devimg img{
+    border-radius: 50%;
+    height:300px;
+    width:300px; 
+    float: right;
+    margin-right:20px;
+    margin-top: 50px;
+
+}
+.devinfo{
+    justify-content: center ;
+    align-items:center;
+     float:left;
+     
+    padding: 10px;
+    font-family:'Andika', sans-serif; ;
+    margin: auto 150px;
+    width:100%;
+
+    
+}
+.devinfo p{
+    margin-top: 10%;
+    font-size: larger;
+    color: black;
+    
+}
+ .main h1{
+    margin-top: 20px;
+    font-family: 'Sacramento', cursive;
+    color: #2c1d14;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size:xxx-large;
+}
+.h{
+    width:100%;
+    height:3px;
+    border:0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:76px;
+    background-color: white;
+    margin-top:30px;
+
+}
+.ho{
+    width:100%;
+    height:2px;
+    border:0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:5Spx;
+    background-color: white;
+    margin-top:0px;
+
+
+}
+.body h1{
+    margin-top:0px;
+    font-family: 'Sacramento', cursive;; 
+    color: #2c1d14;
+
+    font-weight: 300;
+    font-size:xxx-large;
+}
+
+
+ .two p{
+    justify-content: center ;
+    align-items:center;
+    
+     
+    padding: 10px;
+    font-family:'Andika', sans-serif; ;
+    margin: auto 10pxpx;
+    width:100%;
+ }
+.three{
+    margin-top:0;
+    margin-bottom: 5%;
+}
+.four{
+    justify-content: center;
+    align-items: center;
+}
+.four caption{
+    margin-bottom: 5%;
+    
+    
+}
+.four table{
+    
+    width:60%;
+    border-collapse:collapse;
+    border-spacing:0;
+    border-radius:12px 12px 0 0;
+    background-color:#785d48;
+    text-align:center;
+   
+} 
+.four th,td{
+    padding: 12px 15px;
+    color:#d3c5aa;
+
+
+}
+.four th{
+    
+    background-color:#785d48 ;
+    color:#210d07;
+    text-transform:uppercase;
+}
+.body h2{
+        font-size: 26px;
+        font-family: 'Sacramento', cursive ;
+
+}
+.thankyou p{
+    color: #210d07;
+    font-size: 114px;
+    font-family: 'Sacramento', cursive ;
+    
+}
